@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "rootDir": "lib",
+    "baseUrl": "lib",
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    },
+    "skipLibCheck": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "lib"
+  ]
+}
